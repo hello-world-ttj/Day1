@@ -1,0 +1,63 @@
+*{
+    font-family: 'Itim', cursive;
+}
+
+.logo{
+    width: 30px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+li a{
+    text-decoration: none;
+    color: #000;
+    padding-left: 20px;
+}
+
+ul{
+    float: right;
+}
+
+li{
+    display: inline;
+}
+
+.avatarImg{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.mainDiv{
+    display: flex;
+    margin-top: 50px;
+}
+
+.left{
+    width: 50%;
+    margin-left: 50px;
+}
+
+.right{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.footer{
+    margin-top: 50px;
+}
+
+.imgDiv{
+    width: 500px;
+    height: 500px;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
